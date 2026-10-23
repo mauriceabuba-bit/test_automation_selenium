@@ -1,0 +1,23 @@
+2026-10-23 18:12:09,654 | INFO | ============================================================
+2026-10-23 18:12:09,654 | INFO | WEBSITE NAVIGATION TEST RUN
+2026-10-23 18:12:09,654 | INFO | Website URL: file:///C:/Users/User/Desktop/portifolio%20final/index.html
+2026-10-23 18:12:09,655 | INFO | Browser: Google Chrome
+2026-10-23 18:12:10,008 | INFO | Operating system: Windows-10-10.0.19045-SP0
+2026-10-23 18:12:10,008 | INFO | Test run started: 2026-10-23T18:12:10.008784+02:00
+2026-10-23 18:12:10,009 | INFO | Total planned tests: 6
+2026-10-23 18:12:10,009 | INFO | ============================================================
+2026-10-23 18:12:12,811 | INFO | Browser started: chrome | Version: 156.0.8078.48
+2026-10-23 18:12:19,479 | INFO | TC-01 | Item: Home navigation | Expected: file:///C:/Users/User/Desktop/portifolio%20final/index.html#home | Actual: file:///C:/Users/User/Desktop/portifolio%20final/index.html#home | Status: PASS | Duration: 6.667s
+2026-10-23 18:12:19,944 | INFO | TC-02 | Item: About navigation | Expected: file:///C:/Users/User/Desktop/portifolio%20final/index.html#about | Actual: file:///C:/Users/User/Desktop/portifolio%20final/index.html#about | Status: PASS | Duration: 0.465s
+2026-10-23 18:12:20,143 | INFO | TC-03 | Item: Skills navigation | Expected: file:///C:/Users/User/Desktop/portifolio%20final/index.html#skills | Actual: file:///C:/Users/User/Desktop/portifolio%20final/index.html#skills | Status: PASS | Duration: 0.199s
+2026-10-23 18:12:20,337 | INFO | TC-04 | Item: Projects navigation | Expected: file:///C:/Users/User/Desktop/portifolio%20final/index.html#projects | Actual: file:///C:/Users/User/Desktop/portifolio%20final/index.html#projects | Status: PASS | Duration: 0.194s
+2026-10-23 18:12:20,526 | INFO | TC-05 | Item: Contact navigation | Expected: file:///C:/Users/User/Desktop/portifolio%20final/index.html#contact | Actual: file:///C:/Users/User/Desktop/portifolio%20final/index.html#contact | Status: PASS | Duration: 0.189s
+2026-10-23 18:12:20,654 | INFO | TC-06 | Item: Negative test - nonexistent link | Expected: link absent | Actual: link absent | Status: PASS | Duration: 0.127s | Details: Expected NoSuchElementException was raised.
+2026-10-23 18:12:22,784 | INFO | ============================================================
+2026-10-23 18:12:22,785 | INFO | TEST SUMMARY
+2026-10-23 18:12:22,785 | INFO | Total tests: 6
+2026-10-23 18:12:22,786 | INFO | Passed: 6
+2026-10-23 18:12:22,786 | INFO | Failed: 0
+2026-10-23 18:12:22,786 | INFO | Total test duration: 7.841 seconds
+2026-10-23 18:12:22,787 | INFO | Log file: logs\LOG_FILE_20261023_181209_654021.txt
+2026-10-23 18:12:22,787 | INFO | ============================================================

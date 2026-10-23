@@ -1,15 +1,17 @@
-# In this file, we shall declare all the contants and variables that do not change. 
-TEST_URL = "file:///Users/cloviswanziguya/Projects/Portfolio/cwanziguya/index.html"
-DYNAMIC_DEFAULT_URL = "file:///Users/cloviswanziguya/Projects/Portfolio/cwanziguya/"
-ABOUT_TEXT = "ABOUT"
-PORTFOLIO_DETAILS_TEXT = "Portfolio Details"
-PORTFOLIO_TEXT = "PORTFOLIO"
-SERVICES_TEXT = "SERVICES"
-CONTACT_TEXT = "CONTACT"
-HOME_TEXT = "HOME"
-ABOUT_URL = DYNAMIC_DEFAULT_URL + "about.html"
-PORTFOLIO_DETAILS_URL = DYNAMIC_DEFAULT_URL + "portfolio-details.html"
-PORTFOLIO_URL = DYNAMIC_DEFAULT_URL + "portfolio.html"
-SERVICES_URL = DYNAMIC_DEFAULT_URL + "services.html"
-CONTACT_URL = DYNAMIC_DEFAULT_URL +"contact.html"
-HOME_URL = TEST_URL
+
+from pathlib import Path
+
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
+TEST_URL = (PROJECT_ROOT / "index.html").as_uri()
+
+HOME_TEXT = "Home"
+ABOUT_TEXT = "About"
+SKILLS_TEXT = "Skills"
+PROJECTS_TEXT = "Projects"
+CONTACT_TEXT = "Contact"
+
+HOME_URL = TEST_URL + "#home"
+ABOUT_URL = TEST_URL + "#about"
+SKILLS_URL = TEST_URL + "#skills"
+PROJECTS_URL = TEST_URL + "#projects"
+CONTACT_URL = TEST_URL + "#contact"
