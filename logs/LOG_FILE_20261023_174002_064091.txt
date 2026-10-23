@@ -1,0 +1,144 @@
+2026-10-23 17:40:13,209 | INFO | TEST RUN START
+2026-10-23 17:40:13,210 | INFO | Website: file:///Users/cloviswanziguya/Projects/Portfolio/cwanziguya/index.html
+2026-10-23 17:40:13,210 | INFO | Browser: chrome 156.0.8078.48
+2026-10-23 17:40:18,223 | INFO | Operating system: Windows-10-10.0.19045-SP0
+2026-10-23 17:40:18,227 | INFO | TC-01 | Testing link: ABOUT | Expected URL: file:///Users/cloviswanziguya/Projects/Portfolio/cwanziguya/about.html
+2026-10-23 17:40:18,898 | INFO | TC-01 | Expected: file:///Users/cloviswanziguya/Projects/Portfolio/cwanziguya/about.html | Actual: file:///Users/cloviswanziguya/Projects/Portfolio/cwanziguya/index.html | Status: FAIL | Duration: 0.671 sec
+2026-10-23 17:40:18,939 | ERROR | TC-01 failed | Error: Message: no such element: Unable to locate element: {"method":"link text","selector":"ABOUT"}
+  (Session info: chrome=156.0.8078.48); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	(No symbol) [0x7ff754603f45]
+	(No symbol) [0x7ff754504f90]
+	(No symbol) [0x7ff754382c53]
+	(No symbol) [0x7ff754bd52d1]
+	(No symbol) [0x7ff754bd552c]
+	(No symbol) [0x7ff754c030e7]
+	(No symbol) [0x7ff7543b25d1]
+	(No symbol) [0x7ff754397cb9]
+	(No symbol) [0x7ff754398ff3]
+	(No symbol) [0x7ff754abe1a1]
+	(No symbol) [0x7ff754ae181b]
+	(No symbol) [0x7ff754ad7ece]
+	(No symbol) [0x7ff75472b10e]
+	(No symbol) [0x7ff754513db5]
+	(No symbol) [0x7ff75450e694]
+	(No symbol) [0x7ff75450e824]
+	(No symbol) [0x7ff7544f6bdc]
+	(No symbol) [0x7ffad8e07374]
+	(No symbol) [0x7ffad9d3cc91]
+ | Page URL: file:///Users/cloviswanziguya/Projects/Portfolio/cwanziguya/index.html
+2026-10-23 17:40:18,939 | INFO | TC-02 | Testing link: PORTFOLIO | Expected URL: file:///Users/cloviswanziguya/Projects/Portfolio/cwanziguya/portfolio.html
+2026-10-23 17:40:19,016 | INFO | TC-02 | Expected: file:///Users/cloviswanziguya/Projects/Portfolio/cwanziguya/portfolio.html | Actual: file:///Users/cloviswanziguya/Projects/Portfolio/cwanziguya/index.html | Status: FAIL | Duration: 0.076 sec
+2026-10-23 17:40:19,016 | ERROR | TC-02 failed | Error: Message: no such element: Unable to locate element: {"method":"link text","selector":"PORTFOLIO"}
+  (Session info: chrome=156.0.8078.48); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	(No symbol) [0x7ff754603f45]
+	(No symbol) [0x7ff754504f90]
+	(No symbol) [0x7ff754382c53]
+	(No symbol) [0x7ff754bd52d1]
+	(No symbol) [0x7ff754bd552c]
+	(No symbol) [0x7ff754c030e7]
+	(No symbol) [0x7ff7543b25d1]
+	(No symbol) [0x7ff754397cb9]
+	(No symbol) [0x7ff754398ff3]
+	(No symbol) [0x7ff754abe1a1]
+	(No symbol) [0x7ff754ae181b]
+	(No symbol) [0x7ff754ad7ece]
+	(No symbol) [0x7ff75472b10e]
+	(No symbol) [0x7ff754513db5]
+	(No symbol) [0x7ff75450e694]
+	(No symbol) [0x7ff75450e824]
+	(No symbol) [0x7ff7544f6bdc]
+	(No symbol) [0x7ffad8e07374]
+	(No symbol) [0x7ffad9d3cc91]
+ | Page URL: file:///Users/cloviswanziguya/Projects/Portfolio/cwanziguya/index.html
+2026-10-23 17:40:19,016 | INFO | TC-03 | Testing link: SERVICES | Expected URL: file:///Users/cloviswanziguya/Projects/Portfolio/cwanziguya/services.html
+2026-10-23 17:40:19,080 | INFO | TC-03 | Expected: file:///Users/cloviswanziguya/Projects/Portfolio/cwanziguya/services.html | Actual: file:///Users/cloviswanziguya/Projects/Portfolio/cwanziguya/index.html | Status: FAIL | Duration: 0.064 sec
+2026-10-23 17:40:19,080 | ERROR | TC-03 failed | Error: Message: no such element: Unable to locate element: {"method":"link text","selector":"SERVICES"}
+  (Session info: chrome=156.0.8078.48); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	(No symbol) [0x7ff754603f45]
+	(No symbol) [0x7ff754504f90]
+	(No symbol) [0x7ff754382c53]
+	(No symbol) [0x7ff754bd52d1]
+	(No symbol) [0x7ff754bd552c]
+	(No symbol) [0x7ff754c030e7]
+	(No symbol) [0x7ff7543b25d1]
+	(No symbol) [0x7ff754397cb9]
+	(No symbol) [0x7ff754398ff3]
+	(No symbol) [0x7ff754abe1a1]
+	(No symbol) [0x7ff754ae181b]
+	(No symbol) [0x7ff754ad7ece]
+	(No symbol) [0x7ff75472b10e]
+	(No symbol) [0x7ff754513db5]
+	(No symbol) [0x7ff75450e694]
+	(No symbol) [0x7ff75450e824]
+	(No symbol) [0x7ff7544f6bdc]
+	(No symbol) [0x7ffad8e07374]
+	(No symbol) [0x7ffad9d3cc91]
+ | Page URL: file:///Users/cloviswanziguya/Projects/Portfolio/cwanziguya/index.html
+2026-10-23 17:40:19,080 | INFO | TC-04 | Testing link: CONTACT | Expected URL: file:///Users/cloviswanziguya/Projects/Portfolio/cwanziguya/contact.html
+2026-10-23 17:40:19,135 | INFO | TC-04 | Expected: file:///Users/cloviswanziguya/Projects/Portfolio/cwanziguya/contact.html | Actual: file:///Users/cloviswanziguya/Projects/Portfolio/cwanziguya/index.html | Status: FAIL | Duration: 0.055 sec
+2026-10-23 17:40:19,135 | ERROR | TC-04 failed | Error: Message: no such element: Unable to locate element: {"method":"link text","selector":"CONTACT"}
+  (Session info: chrome=156.0.8078.48); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	(No symbol) [0x7ff754603f45]
+	(No symbol) [0x7ff754504f90]
+	(No symbol) [0x7ff754382c53]
+	(No symbol) [0x7ff754bd52d1]
+	(No symbol) [0x7ff754bd552c]
+	(No symbol) [0x7ff754c030e7]
+	(No symbol) [0x7ff7543b25d1]
+	(No symbol) [0x7ff754397cb9]
+	(No symbol) [0x7ff754398ff3]
+	(No symbol) [0x7ff754abe1a1]
+	(No symbol) [0x7ff754ae181b]
+	(No symbol) [0x7ff754ad7ece]
+	(No symbol) [0x7ff75472b10e]
+	(No symbol) [0x7ff754513db5]
+	(No symbol) [0x7ff75450e694]
+	(No symbol) [0x7ff75450e824]
+	(No symbol) [0x7ff7544f6bdc]
+	(No symbol) [0x7ffad8e07374]
+	(No symbol) [0x7ffad9d3cc91]
+ | Page URL: file:///Users/cloviswanziguya/Projects/Portfolio/cwanziguya/index.html
+2026-10-23 17:40:19,135 | INFO | TC-05 | Testing link: HOME | Expected URL: file:///Users/cloviswanziguya/Projects/Portfolio/cwanziguya/index.html
+2026-10-23 17:40:19,194 | INFO | TC-05 | Expected: file:///Users/cloviswanziguya/Projects/Portfolio/cwanziguya/index.html | Actual: file:///Users/cloviswanziguya/Projects/Portfolio/cwanziguya/index.html | Status: FAIL | Duration: 0.058 sec
+2026-10-23 17:40:19,194 | ERROR | TC-05 failed | Error: Message: no such element: Unable to locate element: {"method":"link text","selector":"HOME"}
+  (Session info: chrome=156.0.8078.48); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	(No symbol) [0x7ff754603f45]
+	(No symbol) [0x7ff754504f90]
+	(No symbol) [0x7ff754382c53]
+	(No symbol) [0x7ff754bd52d1]
+	(No symbol) [0x7ff754bd552c]
+	(No symbol) [0x7ff754c030e7]
+	(No symbol) [0x7ff7543b25d1]
+	(No symbol) [0x7ff754397cb9]
+	(No symbol) [0x7ff754398ff3]
+	(No symbol) [0x7ff754abe1a1]
+	(No symbol) [0x7ff754ae181b]
+	(No symbol) [0x7ff754ad7ece]
+	(No symbol) [0x7ff75472b10e]
+	(No symbol) [0x7ff754513db5]
+	(No symbol) [0x7ff75450e694]
+	(No symbol) [0x7ff75450e824]
+	(No symbol) [0x7ff7544f6bdc]
+	(No symbol) [0x7ffad8e07374]
+	(No symbol) [0x7ffad9d3cc91]
+ | Page URL: file:///Users/cloviswanziguya/Projects/Portfolio/cwanziguya/index.html
+2026-10-23 17:40:19,194 | INFO | TC-06 | Negative test: verify missing link is handled
+2026-10-23 17:40:19,245 | INFO | TC-06 | Expected: missing link is not found | Actual: Expected missing-link error handled: NoSuchElementException | Status: PASS | Duration: 0.051 sec
+2026-10-23 17:40:19,245 | INFO | TC-06 passed
+2026-10-23 17:40:19,245 | INFO | ========== RUN SUMMARY ==========
+2026-10-23 17:40:19,245 | INFO | Total tests: 6
+2026-10-23 17:40:19,245 | INFO | Passed: 1
+2026-10-23 17:40:19,246 | INFO | Failed: 5
+2026-10-23 17:40:19,246 | INFO | Total duration: 17.084 seconds
+2026-10-23 17:40:19,246 | INFO | Log file: logs\LOG_FILE_20261023_174002_064091.txt
+2026-10-23 17:40:19,246 | INFO | TEST RUN END

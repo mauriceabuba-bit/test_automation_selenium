@@ -1,0 +1,50 @@
+2026-10-23 17:14:45,756 | ERROR | Test run setup or execution error
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\common\driver_finder.py", line 67, in _binary_paths
+    output = SeleniumManager().binary_paths(self._to_args())
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\common\selenium_manager.py", line 55, in binary_paths
+    return self._run(args)
+           ~~~~~~~~~^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\common\selenium_manager.py", line 159, in _run
+    raise WebDriverException(
+        f"Unsuccessful command executed: {command}; code: {completed_proc.returncode}\n{result}\n{stderr}"
+    )
+selenium.common.exceptions.WebDriverException: Message: Unsuccessful command executed: C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser chrome --language-binding python --output json; code: 65
+{'code': 65, 'message': 'error sending request for url (https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json)', 'driver_path': '', 'browser_path': ''}
+
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\portifolio final\test_automation_selenium\app.py", line 42, in <module>
+    browser_info = functions.start_browser()
+  File "C:\Users\User\Desktop\portifolio final\test_automation_selenium\includes\functions.py", line 16, in start_browser
+    driver = webdriver.Chrome()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 45, in __init__
+    super().__init__(
+    ~~~~~~~~~~~~~~~~^
+        browser_name=DesiredCapabilities.CHROME["browserName"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        keep_alive=keep_alive,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\chromium\webdriver.py", line 50, in __init__
+    if finder.get_browser_path():
+       ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\common\driver_finder.py", line 47, in get_browser_path
+    return self._binary_paths()["browser_path"]
+           ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\common\driver_finder.py", line 78, in _binary_paths
+    raise NoSuchDriverException(msg) from err
+selenium.common.exceptions.NoSuchDriverException: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2026-10-23 17:14:45,905 | INFO | ========== RUN SUMMARY ==========
+2026-10-23 17:14:45,905 | INFO | Total tests: 6
+2026-10-23 17:14:45,905 | INFO | Passed: 0
+2026-10-23 17:14:45,906 | INFO | Failed: 1
+2026-10-23 17:14:45,906 | INFO | Total duration: 99.842 seconds
+2026-10-23 17:14:45,906 | INFO | Log file: logs\LOG_FILE_20261023_171305_965937.txt
+2026-10-23 17:14:45,906 | INFO | TEST RUN END
